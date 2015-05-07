@@ -1,11 +1,12 @@
 # SimpleAmqpClient-examples
 SimpleAmqpClient is an easy-to-use C++ wrapper around the rabbitmq-c C library. Here is the examples for SimpleAmqpClient library application.
 
-#Installing
+Installing
+----------------
 
-protobuf: https://github.com/google/protobuf
+- protobuf: https://github.com/google/protobuf
 
-SimpleAmqpClient: https://github.com/alanxz/SimpleAmqpClient
+- SimpleAmqpClient: https://github.com/alanxz/SimpleAmqpClient
 
 #note
 
