@@ -7,7 +7,7 @@ protobuf: https://github.com/google/protobuf
 
 SimpleAmqpClient: https://github.com/alanxz/SimpleAmqpClient
 
-# note:
+# note
 
     std::string BasicConsume(const std::string &queue,
                              const std::string &consumer_tag = "",
