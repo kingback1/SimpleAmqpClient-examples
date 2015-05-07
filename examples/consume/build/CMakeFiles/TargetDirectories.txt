@@ -1,0 +1,1 @@
+/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/queue.dir

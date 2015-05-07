@@ -1,0 +1,6 @@
+message img{
+  required string src=1;
+  required string dst=2;
+  repeated string name=3;
+
+}

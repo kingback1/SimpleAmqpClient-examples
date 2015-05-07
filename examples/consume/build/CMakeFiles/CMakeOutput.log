@@ -1,0 +1,547 @@
+The system is: Linux - 2.6.32-431.el6.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/3.1.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/3.1.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec1513448150/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1513448150.dir/build.make CMakeFiles/cmTryCompileExec1513448150.dir/build
+gmake[1]: Entering directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1513448150.dir/testCCompiler.c.o
+/usr/local/bin/cc    -o CMakeFiles/cmTryCompileExec1513448150.dir/testCCompiler.c.o   -c /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1513448150
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1513448150.dir/link.txt --verbose=1
+/usr/local/bin/cc      CMakeFiles/cmTryCompileExec1513448150.dir/testCCompiler.c.o  -o cmTryCompileExec1513448150 -rdynamic 
+gmake[1]: Leaving directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3200534836/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3200534836.dir/build.make CMakeFiles/cmTryCompileExec3200534836.dir/build
+gmake[1]: Entering directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3200534836.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/cc    -o CMakeFiles/cmTryCompileExec3200534836.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.1/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3200534836
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3200534836.dir/link.txt --verbose=1
+/usr/local/bin/cc     -v CMakeFiles/cmTryCompileExec3200534836.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3200534836 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/cc
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr/local --mandir=/usr/local/share/man --infodir=/usr/local/share/info --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,fortran --disable-dssi --enable-libgcj-multifile --with-ppl --with-cloog --with-tune=generic --build=x86_64-redhat-linux --with-mpc-include=/usr/local/include --with-mpc-lib=/usr/local/lib --disable-multilib
+Thread model: posix
+gcc version 4.8.2 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/libexec/gcc/x86_64-redhat-linux/:/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3200534836' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3200534836 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/crtbegin.o -L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2 -L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../.. CMakeFiles/cmTryCompileExec3200534836.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3200534836/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3200534836.dir/build.make CMakeFiles/cmTryCompileExec3200534836.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/local/bin/cmake -E cmake_progress_report /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3200534836.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/cc    -o CMakeFiles/cmTryCompileExec3200534836.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.1/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3200534836]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3200534836.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/cc     -v CMakeFiles/cmTryCompileExec3200534836.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3200534836 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr/local --mandir=/usr/local/share/man --infodir=/usr/local/share/info --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,fortran --disable-dssi --enable-libgcj-multifile --with-ppl --with-cloog --with-tune=generic --build=x86_64-redhat-linux --with-mpc-include=/usr/local/include --with-mpc-lib=/usr/local/lib --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/libexec/gcc/x86_64-redhat-linux/:/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3200534836' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3200534836 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/crtbegin.o -L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2 -L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../.. CMakeFiles/cmTryCompileExec3200534836.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3200534836] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2] ==> dir [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2]
+    arg [-L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64] ==> dir [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../..] ==> dir [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec3200534836.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2] ==> [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2]
+  collapse library dir [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64] ==> [/usr/local/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../..] ==> [/usr/local/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2;/usr/local/lib64;/lib64;/usr/lib64;/usr/local/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec2648186237/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2648186237.dir/build.make CMakeFiles/cmTryCompileExec2648186237.dir/build
+gmake[1]: Entering directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2648186237.dir/feature_tests.c.o
+/usr/local/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec2648186237.dir/feature_tests.c.o   -c /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec2648186237
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2648186237.dir/link.txt --verbose=1
+/usr/local/bin/cc      CMakeFiles/cmTryCompileExec2648186237.dir/feature_tests.c.o  -o cmTryCompileExec2648186237 -rdynamic 
+gmake[1]: Leaving directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3070490723/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3070490723.dir/build.make CMakeFiles/cmTryCompileExec3070490723.dir/build
+gmake[1]: Entering directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3070490723.dir/feature_tests.c.o
+/usr/local/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec3070490723.dir/feature_tests.c.o   -c /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec3070490723
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3070490723.dir/link.txt --verbose=1
+/usr/local/bin/cc      CMakeFiles/cmTryCompileExec3070490723.dir/feature_tests.c.o  -o cmTryCompileExec3070490723 -rdynamic 
+gmake[1]: Leaving directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:0c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec4041567320/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4041567320.dir/build.make CMakeFiles/cmTryCompileExec4041567320.dir/build
+gmake[1]: Entering directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4041567320.dir/feature_tests.c.o
+/usr/local/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec4041567320.dir/feature_tests.c.o   -c /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec4041567320
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4041567320.dir/link.txt --verbose=1
+/usr/local/bin/cc      CMakeFiles/cmTryCompileExec4041567320.dir/feature_tests.c.o  -o cmTryCompileExec4041567320 -rdynamic 
+gmake[1]: Leaving directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:0c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3535454760/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3535454760.dir/build.make CMakeFiles/cmTryCompileExec3535454760.dir/build
+gmake[1]: Entering directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3535454760.dir/testCXXCompiler.cxx.o
+/usr/local/bin/c++     -o CMakeFiles/cmTryCompileExec3535454760.dir/testCXXCompiler.cxx.o -c /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3535454760
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3535454760.dir/link.txt --verbose=1
+/usr/local/bin/c++       CMakeFiles/cmTryCompileExec3535454760.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3535454760 -rdynamic 
+gmake[1]: Leaving directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec570122082/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec570122082.dir/build.make CMakeFiles/cmTryCompileExec570122082.dir/build
+gmake[1]: Entering directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec570122082.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/c++     -o CMakeFiles/cmTryCompileExec570122082.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.1/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec570122082
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec570122082.dir/link.txt --verbose=1
+/usr/local/bin/c++      -v CMakeFiles/cmTryCompileExec570122082.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec570122082 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/c++
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr/local --mandir=/usr/local/share/man --infodir=/usr/local/share/info --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,fortran --disable-dssi --enable-libgcj-multifile --with-ppl --with-cloog --with-tune=generic --build=x86_64-redhat-linux --with-mpc-include=/usr/local/include --with-mpc-lib=/usr/local/lib --disable-multilib
+Thread model: posix
+gcc version 4.8.2 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/libexec/gcc/x86_64-redhat-linux/:/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec570122082' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec570122082 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/crtbegin.o -L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2 -L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../.. CMakeFiles/cmTryCompileExec570122082.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/crtend.o /usr/lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTryCompileExec570122082/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec570122082.dir/build.make CMakeFiles/cmTryCompileExec570122082.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/local/bin/cmake -E cmake_progress_report /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec570122082.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/c++     -o CMakeFiles/cmTryCompileExec570122082.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.1/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec570122082]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec570122082.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/c++      -v CMakeFiles/cmTryCompileExec570122082.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec570122082 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr/local --mandir=/usr/local/share/man --infodir=/usr/local/share/info --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-languages=c,c++,objc,obj-c++,fortran --disable-dssi --enable-libgcj-multifile --with-ppl --with-cloog --with-tune=generic --build=x86_64-redhat-linux --with-mpc-include=/usr/local/include --with-mpc-lib=/usr/local/lib --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/libexec/gcc/x86_64-redhat-linux/:/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/:/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec570122082' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec570122082 /usr/lib/../lib64/crt1.o /usr/lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/crtbegin.o -L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2 -L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../.. CMakeFiles/cmTryCompileExec570122082.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/crtend.o /usr/lib/../lib64/crtn.o]
+    arg [/usr/local/libexec/gcc/x86_64-redhat-linux/4.8.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec570122082] ==> ignore
+    arg [/usr/lib/../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/../lib64/crti.o] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2] ==> dir [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2]
+    arg [-L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64] ==> dir [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../..] ==> dir [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec570122082.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/crtend.o] ==> ignore
+    arg [/usr/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2] ==> [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2]
+  collapse library dir [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64] ==> [/usr/local/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2/../../..] ==> [/usr/local/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/local/lib/gcc/x86_64-redhat-linux/4.8.2;/usr/local/lib64;/lib64;/usr/lib64;/usr/local/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec715071201/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec715071201.dir/build.make CMakeFiles/cmTryCompileExec715071201.dir/build
+gmake[1]: Entering directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec715071201.dir/feature_tests.cxx.o
+/usr/local/bin/c++    -std=c++1y -o CMakeFiles/cmTryCompileExec715071201.dir/feature_tests.cxx.o -c /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec715071201
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec715071201.dir/link.txt --verbose=1
+/usr/local/bin/c++       CMakeFiles/cmTryCompileExec715071201.dir/feature_tests.cxx.o  -o cmTryCompileExec715071201 -rdynamic 
+gmake[1]: Leaving directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec4190314476/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4190314476.dir/build.make CMakeFiles/cmTryCompileExec4190314476.dir/build
+gmake[1]: Entering directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4190314476.dir/feature_tests.cxx.o
+/usr/local/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec4190314476.dir/feature_tests.cxx.o -c /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec4190314476
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4190314476.dir/link.txt --verbose=1
+/usr/local/bin/c++       CMakeFiles/cmTryCompileExec4190314476.dir/feature_tests.cxx.o  -o cmTryCompileExec4190314476 -rdynamic 
+gmake[1]: Leaving directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec3686278147/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3686278147.dir/build.make CMakeFiles/cmTryCompileExec3686278147.dir/build
+gmake[1]: Entering directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3686278147.dir/feature_tests.cxx.o
+/usr/local/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec3686278147.dir/feature_tests.cxx.o -c /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec3686278147
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3686278147.dir/link.txt --verbose=1
+/usr/local/bin/c++       CMakeFiles/cmTryCompileExec3686278147.dir/feature_tests.cxx.o  -o cmTryCompileExec3686278147 -rdynamic 
+gmake[1]: Leaving directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec2392579697/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2392579697.dir/build.make CMakeFiles/cmTryCompileExec2392579697.dir/build
+gmake[1]: Entering directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2392579697.dir/CheckIncludeFiles.c.o
+/usr/local/bin/cc    -o CMakeFiles/cmTryCompileExec2392579697.dir/CheckIncludeFiles.c.o   -c /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2392579697
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2392579697.dir/link.txt --verbose=1
+/usr/local/bin/cc      CMakeFiles/cmTryCompileExec2392579697.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2392579697 -rdynamic 
+gmake[1]: Leaving directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTryCompileExec2845443802/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2845443802.dir/build.make CMakeFiles/cmTryCompileExec2845443802.dir/build
+gmake[1]: Entering directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+/usr/local/bin/cmake -E cmake_progress_report /home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2845443802.dir/CheckFunctionExists.c.o
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2845443802.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.1/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2845443802
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2845443802.dir/link.txt --verbose=1
+/usr/local/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   CMakeFiles/cmTryCompileExec2845443802.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2845443802 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/home/wanghui/rabbitmq/mycode/consume/build/CMakeFiles/CMakeTmp'
+
+
