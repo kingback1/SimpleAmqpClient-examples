@@ -3,9 +3,9 @@ SimpleAmqpClient is an easy-to-use C++ wrapper around the rabbitmq-c C library. 
 
 # Installing
 
-protobuf:https://github.com/google/protobuf
+protobuf: https://github.com/google/protobuf
 
-SimpleAmqpClient:https://github.com/alanxz/SimpleAmqpClient
+SimpleAmqpClient: https://github.com/alanxz/SimpleAmqpClient
 
 # note:
 
@@ -17,4 +17,7 @@ SimpleAmqpClient:https://github.com/alanxz/SimpleAmqpClient
                              boost::uint16_t message_prefetch_count = 1);
 
 the param "exclusive" true for only one client to access the queue, false is for multithread client to access the queue.
+
+# Docs
+protobuf: https://developers.google.com/protocol-buffers/
 
