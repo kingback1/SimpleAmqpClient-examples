@@ -1,0 +1,2 @@
+# SimpleAmqpClient-examples
+SimpleAmqpClient examples
